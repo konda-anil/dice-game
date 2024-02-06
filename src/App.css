@@ -1,0 +1,29 @@
+/* App.css */
+.app-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.dice-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.dice {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+}
+
+button {
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.error-message {
+  color: red;
+}
+
+.winner-message {
+  color: green;
+}
